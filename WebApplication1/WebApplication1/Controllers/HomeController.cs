@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "This is my application!";
+            ViewBag.Message = "This is my application using TeamCity and Octopus Deploy!";
 
             return View();
         }
