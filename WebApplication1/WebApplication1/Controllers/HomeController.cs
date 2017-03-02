@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "This is my application using TeamCity and Octopus Deploy! - Now using tagging.";
+            ViewBag.Message = "This is my application using TeamCity and Octopus Deploy! - Now using tagging. v1";
 
             return View();
         }
