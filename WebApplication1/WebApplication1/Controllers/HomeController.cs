@@ -23,7 +23,7 @@ namespace WebApplication1.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "James A. (Iceman) O'Keeffe. v2";
-
+            foo;
             return View();
         }
     }
